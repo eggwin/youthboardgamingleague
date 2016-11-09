@@ -1,0 +1,25 @@
+<template name="pandemic">
+	<div id="pandemic-wrapper">
+		<div id="pandemic-main" class="pandemic container top-container-wrapper">
+			<div class="container content-wrapper">
+				{{> pandemicHeader}}
+			</div>
+			<div id="pandemic-content" class="container">
+				<div class="region region-content row">
+					{{> pandemicMovie}}
+				</div>
+			</div>
+		</div>
+	</div>
+</template>
+
+<template name="pandemicHeader">
+	<div class="banner-top">
+		<div class="image-holder">
+			<img src="vision_banner.png" width="100%" />
+		</div>
+		<div class="title-holder">
+			<h2>Pandemic - How to Play</h2>
+		</div>
+	</div>
+</template>
